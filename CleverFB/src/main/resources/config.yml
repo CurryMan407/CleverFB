@@ -1,0 +1,23 @@
+#---------------
+#
+#Clever Fire Blocker
+#
+#Utility plugin made by CurryMan
+#
+#---------------
+
+
+#The world names fire damage and ticks should be disabled in:
+disabled-fire-damage-worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+#The no permission message when a default player tries to use /cfb reload
+no-permission-message: "&cYou do not have permission to use this command."
+
+#What is shown when someone types /cfb, provided they have enough perms
+commands-list: "/&ecfb reload &7» &6Reload the configuration"
+
+#The message shown when the plugin is reloaded in game.
+reload-success-message: "&7[&eC&6F&eB&7] &7» &aConfig reloaded successfully!"

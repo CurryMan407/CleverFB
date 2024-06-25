@@ -1,0 +1,7 @@
+name: CleverFB
+version: '${project.version}'
+main: org.curryman.cleverfb.CleverFB
+api-version: '1.16'
+commands:
+  cfb:
+    description: Main command for CleverFB plugin
